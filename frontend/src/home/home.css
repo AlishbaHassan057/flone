@@ -1,0 +1,93 @@
+body {
+  background: #f7f7f7;
+}
+
+.loginbox {
+  background: transparent;
+}
+
+.log {
+  margin-top: 5rem !important;
+  margin-right: 20rem !important;
+}
+
+.facebookbtn {
+  background: #2d64b0 !important;
+}
+input:focus {
+  box-shadow: 0 0 0 0 !important;
+}
+.logo {
+  margin-top: -3rem !important;
+}
+/* .main{
+    padding: 90rem !important;
+} */
+.underline {
+  text-decoration: underline;
+}
+.forget {
+  margin-left: 0px !important;
+}
+.btn {
+  background: rgb(24, 88, 109) !important ;
+  color: white;
+  width: 30% !important;
+  font-weight: bold;
+}
+
+/* Apply background only to the login form page */
+.body-login-form {
+  background: url("https://img.freepik.com/premium-vector/abstract-purple-background-with-diagonal-light-lines_1302-24397.jpg?w=1060");
+  background-size: cover;
+  background-position: center;
+}
+
+.loginbox {
+  background: transparent;
+}
+
+.log {
+  margin-top: 5rem !important;
+  margin-right: 20rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .row.col-lg-5 {
+    width: 50%; /* Set the width to 50% on medium screens */
+  }
+}
+.form-container {
+  position: relative;
+  background: rgba(255, 255, 255, 0.5); /* Adjust the transparency as needed */
+  backdrop-filter: blur(5px); /* Adjust the blur as needed */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust the label styles */
+.form-container label {
+  color: white; /* Set label text color to white */
+  display: block;
+  margin-bottom: 5px;
+  /* Add margin bottom for spacing */
+  font-size: 1.35rem !important;
+}
+
+/* Adjust the anchor tag styles */
+.form-container a {
+  color: white; /* Set anchor tag text color to white */
+}
+
+/* Adjust the margin-left of the label */
+.form-container input[type="password"],
+.form-container input[type="email"] {
+  margin-left: 0 !important; /* Remove default margin-left */
+}
+
+/* home.css */
+
+.body-login-form {
+  background-color: lightblue; /* Set the background color to light blue */
+}

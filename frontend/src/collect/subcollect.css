@@ -1,0 +1,61 @@
+.heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7 !important;
+}
+.c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem !important;
+  margin-top: 70px !important;
+  margin-bottom: -3rem !important; /* Adjust margin-top as needed */
+}
+
+.hr-left {
+  border: none;
+  height: 1px;
+  width: 100px; /* Width of the hr */
+  background-color: black !important;
+  color: black !important;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.hr-right {
+  border: none;
+  height: 1px;
+  width: 100px; /* Width of the hr */
+  background-color: black;
+  margin-left: 10px; /* Adjust margin as needed */
+}
+
+.heading {
+  margin: 0; /* Remove margin to avoid extra space */
+}
+/* subcollect.css */
+.subcollection-card {
+  margin-bottom: 20px; /* Adjust the gap between cards */
+}
+
+.subcollection-card img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Ensure aspect ratio is maintained */
+}
+.btn {
+  background: bisque !important;
+}
+/* subcollect.css */
+.link-unstyled {
+  color: black;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.btns {
+  width: 100% !important;
+  color: rgb(39, 113, 138);
+  padding: 0.6rem 2rem !important;
+  color: white !important;
+  font-weight: bold;
+}

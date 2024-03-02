@@ -1,0 +1,84 @@
+/* AdminDashboard.css */
+.admin-dashboard-container {
+  position: relative; /* Ensure relative positioning for absolute positioning within */
+}
+.link {
+  color: black; /* Set the color of the links to black */
+  text-decoration: none; /* Remove the underline */
+  font-size: 2rem;
+  /* Set the font size */
+  margin-bottom: 2rem !important;
+}
+.sidebar ul {
+  list-style-type: none; /* Remove the default list style */
+  padding: 0; /* Remove default padding */
+}
+
+.sidebar li {
+  margin-top: 1rem !important;
+  margin-bottom: 15px; /* Add margin between list items */
+}
+
+.sidebar {
+  width: 300px;
+  background-color: lightgray;
+  padding: 20px;
+  height: 100vh; /* Set sidebar height to 100vh */
+  position: fixed; /* Keep sidebar fixed even when scrolling */
+}
+
+.main-content {
+  margin-left: 300px; /* Adjust margin to accommodate sidebar width */
+  padding: 20px;
+}
+
+.logout-box {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.blue {
+  background-color: #007bff;
+}
+
+.green {
+  background-color: #28a745;
+}
+
+.yellow {
+  background-color: #ffc107;
+}
+
+.red {
+  background-color: #dc3545;
+}
+
+.card-container {
+  margin-right: 50px !important; /* Margin from the right side */
+  margin-left: auto; /* Center the content horizontally */
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+  margin-top: 4rem !important;
+}

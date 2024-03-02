@@ -1,0 +1,28 @@
+/* navbar.css */
+.container-fluid.bg-white {
+  background-color: white;
+}
+
+.menu li,
+.social-icons div {
+  color: black; /* Assuming you want black text color */
+}
+body {
+  background: white !important;
+}
+/* Add this CSS to your stylesheet */
+ul.nav-links li {
+  list-style: none; /* Remove default list styles */
+}
+
+ul.nav-links li a {
+  color: black; /* Set link color to black */
+  text-decoration: none; /* Remove underline */
+  border-bottom: none; /* Remove bottom border */
+}
+/* Add this CSS to your stylesheet */
+.s-icon .nav-links {
+  color: black; /* Set link color to black */
+  text-decoration: none; /* Remove underline */
+  border-bottom: none; /* Remove bottom border */
+}
